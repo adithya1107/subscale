@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Subsystems from "./components/Subsystems";
 import About from "./components/About";
-import Sponsors from "./components/Sponsors";
 
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
         <About />
         <Subsystems />
         <Team />
-        <Sponsors />
         <Footer />
       </div>
 

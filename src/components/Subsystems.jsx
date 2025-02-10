@@ -2,13 +2,13 @@
 import Heading from "./Heading";
 import Section from "./Section";
 import { subsystem } from "../constants";
-import { grid} from "../assets";
+import { grid } from "../assets";
 import { Gradient } from "./design/Subsystems";
 
 const Subsystems = () => (
   <Section className="overflow-hidden" id="subsystems">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="Our Subsystems" />
+      <Heading title="Our Subsystems" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {subsystem.map((item) => {
@@ -31,16 +31,6 @@ const Subsystems = () => (
                   />
                 </div>
                 <div className="relative z-1">
-
-                  <div className="mb-10 -my-10 -mx-15">
-                    <img
-                      className="w-full"
-                      src={item.imageUrl}
-                      width={628}
-                      height={426}
-                      alt={item.title}
-                    />
-                  </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   <p className="body-2 text-n-4">{item.text}</p>
                 </div>

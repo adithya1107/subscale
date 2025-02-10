@@ -1,6 +1,5 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
 import { logo } from "../assets/index.js";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -37,7 +36,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={logo} width={90} height={10} alt="vajra" /> 
+          <img src={logo} width={160} height={20} alt="indra" /> 
         </a>
 
         <nav
@@ -51,9 +50,9 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-3xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-3xl sm:text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-sm lg:font-semibold ${
                   item.url === pathname.hash
                     ? "z-2 lg:text-n-1"
                     : "lg:text-n-1/50"
