@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Section id="about">
       <div className="container">
-        <Heading title="Team Indra" text="Project Vajra" />
+        <Heading title="Team INDRA" text="Project Vajra" />
 
         <div className="relative flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-16">
           <div className="lg:w-1/2 w-full max-h-[46rem] overflow-hidden rounded-3xl">

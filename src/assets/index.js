@@ -5,8 +5,6 @@ import gradient from "./gradient.png";
 import grid from "./grid.png";
 import logo from "./logo.png"
 
-import robot from "./hero/robot.jpg";
-
 import about1 from "./about/about.png";
 
 import teamCard1 from "./team/card-1.svg";
@@ -19,7 +17,17 @@ import teamCard7 from "./team/card-7.svg";
 import teamCard8 from "./team/card-8.svg";
 import teamCard9 from "./team/card-9.svg";
 import teamCard10 from "./team/card-10.svg";
-import teamCard11 from "./team/card-11.svg";
+
+import shaurya from "./team/shaurya.png"
+import dhruv from "./team/dhruv.png"
+import krishanu from "./team/krishanu.png"
+import rudra from "./team/rudra.png"
+import shaunak from "./team/shaunak.png"
+import swara from "./team/swara.png"
+import tharun from "./team/tharun.png"
+import vansh from "./team/vansh.png"
+import adithya from "./team/adithya.png"
+
 
 import facebook from "./footer/facebook.svg";
 import instagram from "./footer/instagram.svg";
@@ -32,7 +40,6 @@ export {
   logo,
   gradient,
   grid,
-  robot,
   about1,
   teamCard1,
   teamCard2,
@@ -44,7 +51,15 @@ export {
   teamCard8,
   teamCard9,
   teamCard10,
-  teamCard11,
+  shaunak,
+  shaurya,
+  dhruv,
+  krishanu,
+  vansh,
+  tharun,
+  rudra,
+  adithya,
+  swara,
   facebook,
   instagram,
   twitter,

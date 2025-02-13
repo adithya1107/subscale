@@ -1,7 +1,16 @@
 import {
+  adithya,
+  dhruv,
   facebook,
   instagram,
+  krishanu,
+  rudra,
+  shaunak,
+  shaurya,
+  swara,
+  tharun,
   twitter,
+  vansh,
 } from "../assets";
 
 export const navigation = [
@@ -25,7 +34,7 @@ export const navigation = [
 
 export const about = [
   "10,000 feet",
-  "advanced tech",
+  "Advanced tech",
   "Seamless Integration",
 ];
 export const subsystem = [
@@ -71,7 +80,7 @@ export const team = [
     title: "Shaurya Mittal",
     text: "Aerodynamics Member",
     backgroundUrl: "./src/assets/team/card-1.svg",
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Shaurya%20Mittal_vm63fTBj2j.HEIC?updatedAt=1735410815461"
+    profile: shaurya,
   },
   {
     id: "1",
@@ -79,7 +88,7 @@ export const team = [
     text: "Propulsion Member",
     backgroundUrl: "./src/assets/team/card-2.svg",
     light: true,
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Shaunak%20Purkayastha__eTDJDXK5r.HEIC?updatedAt=1735410814877"
+    profile: shaunak,
   },
   {
     id: "2",
@@ -94,21 +103,21 @@ export const team = [
     text: "Avionics Member",
     backgroundUrl: "./src/assets/team/card-4.svg",
     light: true,
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Krishanu%20Dey_cawTxipxw.HEIC?updatedAt=1735410809227"
+    profile: krishanu,
   },
   {
     id: "4",
-    title: "Dhruv Pahlod",
+    title: "Dhruv Phalod",
     text: "Avionics Member",
     backgroundUrl: "./src/assets/team/card-5.svg",
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Dhruv%20Phalod_UpqptrSoG5.HEIC?updatedAt=1735410810811"
+    profile: dhruv,
   },
   {
     id: "5",
     title: "Vanshdeep Trivedi",
     text: "Avionics Member",
     backgroundUrl: "./src/assets/team/card-6.svg",
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Vanshdeep%20Trivedi_D_GtGaGAt.HEIC?updatedAt=1735410816157"
+    profile: vansh,
   },
   {
     id: "6",
@@ -116,14 +125,14 @@ export const team = [
     text: "Payload Member",
     backgroundUrl: "./src/assets/team/card-7.svg",
     light: true,
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Mutra%20Sai%20Tharun_eTOFs6mCg.HEIC?updatedAt=1735410811259"
+    profile: tharun,
   },
   {
     id: "7",
     title: "Rudra Rajpurohit",
     text: "Payload Member",
     backgroundUrl: "./src/assets/team/card-8.svg",
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Rudra%20Rajpurohit_f_Lp5BH16.HEIC?updatedAt=1735410813472"
+    profile: rudra,
   },
   {
     id: "8",
@@ -131,21 +140,14 @@ export const team = [
     text: "Management Member",
     backgroundUrl: "./src/assets/team/card-9.svg",
     light: true,
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Swaraa%20Sule_yewr6hcrb.HEIC?updatedAt=1735410815424"
-  },
-  {
-    id: "9",
-    title: "Priyam Lath",
-    text: "Management Member",
-    backgroundUrl: "./src/assets/team/card-10.svg",
-    profile: "http://ik.imagekit.io/wns4q4r9n2/2024-25/Priyam%20Lath_P6siKAkr9.HEIC?updatedAt=1735410812874"
+    profile: swara,
   },
   {
     id: "10",
     title: "Adithya Adiga",
     text: "Management Member",
-    backgroundUrl: "./src/assets/team/card-11.svg",
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Adithya%20M%20Adiga_16S6ILxt4L.HEIC?updatedAt=1735410811407"
+    backgroundUrl: "./src/assets/team/card-10.svg",
+    profile: adithya,
   },
 ];
 
