@@ -2,6 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { about1 } from "../assets";
 import { about } from "../constants";
+import { Gradient } from "./design/About";
 
 const About = () => {
   return (
@@ -35,6 +36,7 @@ const About = () => {
           </div>
         </div>
 
+        <Gradient />
       </div>
     </Section>
   );
