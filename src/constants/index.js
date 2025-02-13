@@ -9,6 +9,7 @@ import {
   shaurya,
   swara,
   tharun,
+  tushit,
   twitter,
   vansh,
 } from "../assets";
@@ -95,7 +96,7 @@ export const team = [
     title: "Tushit Chatterjee",
     text: "Structures Member",
     backgroundUrl: "./src/assets/team/card-3.svg",
-    profile: "https://ik.imagekit.io/wns4q4r9n2/2024-25/Tushit%20Chatterjee_-Y7MmF2I4D.HEIC?updatedAt=1735410815796"
+    profile: tushit,
   },
   {
     id: "3",
@@ -156,18 +157,18 @@ export const footer = [
     id: "0",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#https://x.com/ThrustMIT",
+    url: "https://x.com/ThrustMIT",
   },
   {
     id: "1",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#https://www.instagram.com/thrustmit/",
+    url: "https://www.instagram.com/thrustmit/",
   },
   {
     id: "2",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#https://www.facebook.com/search/top?q=thrust%20mit",
+    url: "https://www.facebook.com/search/top?q=thrust%20mit",
   },
 ];

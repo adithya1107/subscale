@@ -27,7 +27,7 @@ import swara from "./team/swara.png"
 import tharun from "./team/tharun.png"
 import vansh from "./team/vansh.png"
 import adithya from "./team/adithya.png"
-
+import tushit from "./team/tushit.png"
 
 import facebook from "./footer/facebook.svg";
 import instagram from "./footer/instagram.svg";
@@ -60,6 +60,7 @@ export {
   rudra,
   adithya,
   swara,
+  tushit,
   facebook,
   instagram,
   twitter,
