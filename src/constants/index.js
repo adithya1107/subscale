@@ -42,35 +42,35 @@ export const subsystem = [
   {
     id: "0",
     title: "Aerodynamics",
-    text: "Aerodynamics subsystem ensures that the rocket follows the correct trajectory and has optimum efficiency. It involves designing fins, nose cone and performing CFD simulations to analyse the aerodynamic forces, flow pattern and stability of the rocket. Major experimental projects include supersonic simulations, air brakes, and designing active control surfaces.",
+    text: "The aerodynamics subsystem ensures the rocket’s efficiency and trajectory by conducting CFD simulations to analyze stability and aerodynamic forces. It also designs the fins and nosecone for flight stability. The fins consist of four trapezoidal structures with a 2.7mm thickness and rounded cross-section, while the nosecone follows a tangent Ogive profile with a 3:1 fineness ratio.",
     colorful: true,
   },
   {
     id: "1",
     title: "Avionics",
-    text: "The Avionics subsystem develops the flight computer for our rocket. It involves programming a multitude of sensors to track live rocket data. We also develop systems like air brakes and reaction control systems. We are further looking into data compression and video telemetry. We are working on an autonomous antenna tracker system to track our rocket in flight.",
+    text: "The avionics subsystem develops and integrates the rocket’s flight computer, using sensors to monitor real-time flight data. Custom algorithms process this data for precise decision-making, including recovery system deployment for controlled descent. It also designs the ignition system for static motor tests and a live data visualization system for enhanced monitoring and analysis.",
   },
   {
     id: "2",
     title: "Payload",
-    text: "Payload and Research is an interdisciplinary subsystem which develops the payload and research on various aspects of rocketry and beyond. Research into Radial Deployment of our Payloads, Supersonic Aerodynamic Profiles, Optimization of CFD using Deep Learning and Optimization of Apogee Prediction Algorithms using Machine Learning is underway.",
+    text: "The payload subsystem focuses on developing mission-defining experiments or technologies. This year’s payload features a GIMBAL-controlled platform structurally attached to CANSAT with springs, designed to withstand rocket-induced vibrations. An onboard microcontroller actively adjusts the platform to keep a PYRAMID object within the camera’s center frame, ensuring precise tracking and capturing the entire process.",
   },
   {
     id: "3",
     title: "Propulsion",
-    text: "The Propulsion Subsystem develops the rocket engine. We plan to build the first student developed Liquid Rocket Engine in India. Research into Solid Rocket Fuel, Ignitors, Design Optimization, Thrust Vector Control and Reaction Control System Design is underway.",
+    text: "The propulsion subsystem designs and develops the solid rocket motor (SRM), selecting and mixing propellants, creating reliable igniters, and conducting tests to ensure proper ignition and consistent thrust. Simulations and practical tests refine performance, ensuring safe and effective operation during flight.",
     colorful: true,
   },
   {
     id: "4",
     title: "Structures",
-    text: "Structures is responsible for the design of the rocket exterior and interior. We perform composite and structural simulations of the rocket airframe and internal components. Structures is responsible for the structural stability and safety of the rocket. We are also working on a static motor ground testing rig.",
+    text: "The structures subsystem handles the 3D design, manufacturing, and assembly of rocket components in a robust manner. It ensures structural integrity through simulations and design optimizations, enhancing overall rocket performance.",
     colorful:true,
   },
   {
     id: "5",
     title: "Management",
-    text: "Management is responsible for the smooth functioning of the entire team. Finance & Sponsorship monitors the Team’s budget and plans and executes successful strategies for sponsorship. We make sure that our team gets all the materials required. We also manage our website and social media handles.",
+    text: "The management team ensures smooth operations by overseeing finances, sponsorships, and resource procurement. The finance and sponsorship department handles budgeting, sponsorship plans, and acquisitions. They also manage thrustMIT’s social media presence and website. Meanwhile, the design team creates promotional materials like posters and brochures, crafting visually appealing content that represents Indra’s initiatives.",
 
   }
 ];
