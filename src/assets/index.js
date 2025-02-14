@@ -6,6 +6,7 @@ import grid from "./grid.png";
 import logo from "./logo.png"
 
 import about1 from "./about/about.png";
+import mission from "./about/mission.png"
 
 import teamCard1 from "./team/card-1.svg";
 import teamCard2 from "./team/card-2.svg";
@@ -41,6 +42,7 @@ export {
   gradient,
   grid,
   about1,
+  mission,
   teamCard1,
   teamCard2,
   teamCard3,

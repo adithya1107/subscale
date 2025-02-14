@@ -32,12 +32,6 @@ export const navigation = [
   },
 ];
 
-
-export const about = [
-  "10,000 feet",
-  "Advanced tech",
-  "Seamless Integration",
-];
 export const subsystem = [
   {
     id: "0",
@@ -157,18 +151,18 @@ export const footer = [
     id: "0",
     title: "Twitter",
     iconUrl: twitter,
-    url: "https://x.com/ThrustMIT",
+    url: "#",
   },
   {
     id: "1",
     title: "Instagram",
     iconUrl: instagram,
-    url: "https://www.instagram.com/thrustmit/",
+    url: "#",
   },
   {
     id: "2",
     title: "Facebook",
     iconUrl: facebook,
-    url: "https://www.facebook.com/search/top?q=thrust%20mit",
+    url: "#",
   },
 ];
